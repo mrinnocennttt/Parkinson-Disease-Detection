@@ -1,0 +1,118 @@
+{
+  "spiral": {
+    "task": "spiral",
+    "model_type": "Random Forest (HOG + Biomechanical Biomarkers)",
+    "train_samples": 72,
+    "test_samples": 30,
+    "feature_dim": 8107,
+    "accuracy": 0.7,
+    "precision": 0.75,
+    "recall_sensitivity": 0.6,
+    "specificity": 0.8,
+    "f1_score": 0.6667,
+    "roc_auc": 0.7467,
+    "confusion_matrix": {
+      "tn": 12,
+      "fp": 3,
+      "fn": 6,
+      "tp": 9
+    },
+    "roc_curve": {
+      "fpr": [
+        0.0,
+        0.0667,
+        0.0667,
+        0.0667,
+        0.2,
+        0.2,
+        0.3333,
+        0.4,
+        0.4667,
+        0.5333,
+        0.6,
+        0.6,
+        0.6667,
+        0.6667,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0,
+        0.3333,
+        0.4667,
+        0.4667,
+        0.6667,
+        0.6667,
+        0.7333,
+        0.7333,
+        0.8,
+        0.8,
+        0.9333,
+        0.9333,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wave": {
+    "task": "wave",
+    "model_type": "Random Forest (HOG + Biomechanical Biomarkers)",
+    "train_samples": 72,
+    "test_samples": 30,
+    "feature_dim": 8107,
+    "accuracy": 0.6333,
+    "precision": 0.6429,
+    "recall_sensitivity": 0.6,
+    "specificity": 0.6667,
+    "f1_score": 0.6207,
+    "roc_auc": 0.7133,
+    "confusion_matrix": {
+      "tn": 10,
+      "fp": 5,
+      "fn": 6,
+      "tp": 9
+    },
+    "roc_curve": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0667,
+        0.0667,
+        0.2,
+        0.2,
+        0.3333,
+        0.3333,
+        0.4,
+        0.5333,
+        0.5333,
+        0.6667,
+        0.8,
+        0.8,
+        0.8667,
+        0.8667,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0667,
+        0.3333,
+        0.3333,
+        0.4,
+        0.4,
+        0.5333,
+        0.5333,
+        0.6667,
+        0.7333,
+        0.7333,
+        0.8,
+        0.8667,
+        0.8667,
+        0.9333,
+        0.9333,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}
